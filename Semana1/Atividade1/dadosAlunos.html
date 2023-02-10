@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Dados dos alunos</h1>
+    <script>
+        let media = 0
+        let aluno = [
+        {
+            nome: "Paula",
+            altura: 1.65,
+            idade: 17,
+            sexo: "feminino",
+            sala: "84",
+            matematica: 7
+
+        },
+        {
+            nome: "Carlos",
+            altura: 1.80,
+            idade: 17,
+            sexo: "Masculino",
+            sala: "84",
+            matematica: 4
+
+        },
+        {
+            nome: "Julia",
+            altura: 1.65,
+            idade: 15,
+            sexo: "feminino",
+            sala: "31",
+            matematica: 10
+
+        },
+        {
+            nome: "Gustavo",
+            altura: 1.75,
+            idade: 17,
+            sexo: "Masculino",
+            sala: "75",
+            matematica: 8
+
+        },
+        {
+            nome: "Gabriela",
+            altura: 1.65,
+            idade: 17,
+            sexo: "feminino",
+            sala: "20",
+            matematica: 4
+
+        }
+       ] 
+       media = (aluno[0].matematica + aluno[1].matematica + aluno[2].matematica + aluno[3].matematica + aluno[4].matematica)/5
+        if(aluno[4].matematica >=7){
+            console.log(aluno[4].nome)
+            console.log("Aprovado")
+        }else{
+            console.log(aluno[4].nome)
+            console.log("Reprovado")
+
+        }
+        
+       console.log(media);
+
+    </script>
+</body>
+</html>
