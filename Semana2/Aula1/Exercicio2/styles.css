@@ -1,0 +1,20 @@
+html{
+    text-align: center;
+    background-color: #cde7ff;
+}
+input{
+    width: 30%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+    border: 2px solid rgb(106, 90, 250);
+  border-radius: 15px;
+  background-color: transparent;
+}
+button{
+    background-color: blue;
+    color: aliceblue;
+    width: 30%;
+    padding: 12px 20px;
+    border-radius: 15px;
+    border-color: aliceblue;
+}
