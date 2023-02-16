@@ -8,16 +8,19 @@ Tabuada de 5:
 
 let numero
 
-numero = prompt("Digite a tabuada desejada")
+numero = prompt("Digite a tabuada desejada!")
 
 
-    for(let i = 1; i <= 10; i++ )
+    for( i = 1; i <= 10; i++ )
     {
-        console.log(numero + 'x' + i + '=' + numero*i);
+        console.log( numero + 'x' + i + '=' + numero*i );
     }
     console.log("________")
 
-/*'use strict'
+/*
+Códogo para trazer a tabuada completa de 1 ao 10
+
+
 let tabuada;
 let numero = 1;
 
