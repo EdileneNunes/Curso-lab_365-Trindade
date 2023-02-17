@@ -1,0 +1,29 @@
+html{
+    background-color: #f7ebd1;
+}
+input{
+    width: 30%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+    border: 2px solid rgb(241, 156, 45);
+  border-radius: 15px;
+  color: coral;
+  background-color: rgb(253, 248, 237);
+}
+button{
+    background-color: rgb(236, 191, 106);
+    color: rgb(73, 37, 3);
+    width: 30%;
+    padding: 12px 20px;
+    border-radius: 15px;
+    border-color: rgb(255, 225, 54);
+}
+h1{
+    color: brown;
+}
+h4{
+    color: darkred;
+}
+.cabeçalho{
+    text-align: center;
+}
