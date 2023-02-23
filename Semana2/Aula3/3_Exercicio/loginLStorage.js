@@ -7,7 +7,7 @@ function login(){
     let user = document.getElementById("user");
     let password = document.getElementById("password");
     document.getElementById("botaoLogin").style.display = " ";
-
+debugger;
     let credenciais = {
         nome: user.value,
         senha: password.value

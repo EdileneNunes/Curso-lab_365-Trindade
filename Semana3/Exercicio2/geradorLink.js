@@ -10,3 +10,14 @@ Relembrando: Para substituir o telefone, modifique o termo "SeuNúmero". Para su
   api.whatsapp.com/send?phone=5511012345678&text=Oi Devs
 [AULA 1]*/
 
+
+function gerarLink(){
+debugger;
+  const numero = document.getElementById('numero').value;
+  const texto = document.getElementById('texto').value;
+  const link = `api.whatsapp.com/send?phone=${numero}&text=${texto}`
+  console.log(link)
+  
+  document.getElementById('app').innerHTML = `<a href="${link}">Olá</a>`
+  
+  };

@@ -6,3 +6,19 @@ const d2 = '2021-11-12';
 const diffInMs = new Date(d2) - new Date(d1)
 const diffInDays = diffInMs / (1000 60 60 * 24);
 console.log(diffInDays) // 38*/
+
+setInterval(() =>{
+
+//const d1 = '2021-10-05';
+const d2 = '2023-02-28';
+const diffInMs = new Date(d2) - new Date(d1)
+const diffInDays = diffInMs / (1000 * 60 * 60 * 24);
+
+if (diffInMs>0) {
+    console.log(`Faltam ${diffInDays} dias`)
+}else{
+    console.log(`Feliz aniversário`)
+}
+
+
+}, 3000)
