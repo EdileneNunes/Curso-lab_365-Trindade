@@ -5,29 +5,30 @@ https://rickandmortyapi.com/api/character/1*/
 let idPesquisaPersonagem = 1
 
 function card(){
-
   idPesquisaPersonagem = Number(document.getElementById("IdPesquisar").value);
-
   searce()
 };
 
 async function searce() {
   const response = await fetch(`https://rickandmortyapi.com/api/character/${idPesquisaPersonagem}`)
   const data = await response.json()
-  console.log(data)
-
+  
   document.getElementById('name').innerHTML = data?.name;
   document.getElementById('status').innerHTML = data?.status;
   document.getElementById('species').innerHTML = data?.species;
   document.getElementById("avatar").src = data.image;
-  document.getElementById('type').innerHTML = data?.type;
+  
+  if(data?.type != undefined){
+    document.getElementById('type').innerHTML = data?.type;
+  }
 
   document.getElementById('origin').innerHTML = data?.origin.name;
-
-
+  document.getElementById('location').innerHTML = data?.location.name;
+  
   if(data?.Male != undefined){
     document.getElementById('Male').innerHTML = data?.Male  
   }
+
   
 };
 searce()
