@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>Lista de afazeres</label><br>
+
+    <input id="adicionar" type="text" placeholder="Adicionar"></Input><br>
+    <button  onclick="adicionarTarefa()"  >Adicionar</button><br><br>
+
+    <Input id="buscar" type="text" placeholder="Buscar tarefa"></Input><br>
+    <button onclick="buscarTarefa()" >Buscar</button><br><br>
+    <div id="mostrar"></div>
+
+    <input id="tarefaAtual" type="text" placeholder="Tarefa atual"></Input><br>
+    <input id="novaTarefa" type="text" placeholder="Nova tarefa"></Input><br>
+    <button onclick="alterarTarefa()" >Alterar</button><br><br>
+    
+    <input id="deletar" type="text" placeholder="Deletar"></Input><br>
+    <button onclick="deletarTarefa()" >Deletar</button><br>
+    
+    <script src="todoList.js"></script>
+</body>
+</html>
